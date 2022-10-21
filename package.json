@@ -2,7 +2,7 @@
   "name": "media-card-bcbs",
   "version": "1.0.0",
   "description": "Media card for anilist v2",
-  "main": "index.js",
+  "main": "./stories/Card.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -11,6 +11,9 @@
   "keywords": [
     "bcbs"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Toan Lamn",
   "license": "ISC",
   "devDependencies": {
