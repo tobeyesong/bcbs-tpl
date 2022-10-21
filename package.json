@@ -1,0 +1,40 @@
+{
+  "name": "media-card-bcbs",
+  "version": "1.0.0",
+  "description": "Media card for anilist v2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [
+    "bcbs"
+  ],
+  "author": "Toan Lamn",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack4": "^6.5.12",
+    "@storybook/manager-webpack4": "^6.5.12",
+    "@storybook/web-components": "^6.5.12",
+    "babel-loader": "^8.2.5",
+    "lit-html": "^2.4.0",
+    "semantic-release": "^19.0.5"
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/git"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node": "^16.13.2"
+  }
+}
